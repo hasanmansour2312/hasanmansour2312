@@ -1,0 +1,7 @@
+import json
+s={"black":"اسود"}
+fileName='d:\\k.json'
+outfile=open(fileName,'w')
+json.dump(s,outfile)
+outfile.close()
+print("okk")
